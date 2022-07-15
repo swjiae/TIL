@@ -44,9 +44,43 @@
       else:
           print('아직 레벨이 낮습니다')
       ```
+      - 네 칸 들여쓰기
+      - ~이상 : 큰 수 부터 작성하기(python = 한줄씩 수행)
+   
+   5. 반복문
+      1. while
+      ```python
+      # 1~10까지 숫자 하나씩 출력하기
 
-​	
+      n = 1
+      while n <= 10:
+         print(n, end = '') #end = '' : 한줄로 출력
+         n = n + 1
+      ```
 
+      2. for
+      ```python
+      levels = [1415, 1430, 1475, 1490]
+
+      print(levels[0])
+      print(levels[1])
+      print(levels[2])
+      print(levels[3])
+
+      for i in levles:
+         print(i)
+      ```
+      ```python
+      gretting = 'HelloWorld'
+      for i in range(4):
+         print(greeting)
+      ```
+
+      3. while vs for
+         - while(+종료조건): 조건이 True인 동안 반복적으로 실행되기에 종료조건이 반드시 필요
+         - for(+i in list): 정해진 범위를 반복하기에 종료조건이 필요없음
+   
+   
 # DAY 5 : Git
 
 ###### (7/15)
